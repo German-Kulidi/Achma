@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="description" content="Грузинская кухня, Заневский проспект, метро Новочеркасская">
+  <meta name="keywords" content="Achma, Грузинская кухня, Хинкали, Хачапури, Грузинская еда, доставка, Грузинское кафе">
+  <title>achma, грузинская кухня в Санкт-Петербурге</title>
+  <link rel="shortcut icon" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@700&family=Fira+Sans+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header" id="header">
+      <div class="header__burger">
+        <span></span>
+      </div>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#header">Главная</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#menu">Меню</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+        <div class="header__social">
+          <a class="header__social-link" href="#"><img src="images/menu-instagram-icon.svg" alt="Instagram"></a>
+          <a class="header__social-link" href="#"><img src="images/menu-whatsapp-icon.svg" alt="WhatsApp"></a>
+        </div>
+      </nav>
+      <div class="header__block">
+        <h1 class="header__title">achma</h1>
+        <h2 class="header__subtitle">грузинская кухня</h2>
+        <a class="header__btn" href="#menu">посмотреть меню</a>
+      </div>
+    </header>
+
+    <section class="description">
+      <div class="container">
+        <h2 class="description__title">Маленькая Грузия ждет вас!</h2>
+        <p class="description__text">"Каждое грузинское блюдо - это поэма"</p>
+        <p class="description__author">А.С. Пушкин</p>
+      </div>
+    </section>
+  
+    <section class="menu" id="menu">
+      <div class="container">
+        <h3 class="menu__title">Меню</h3>
+        <div class="menu__buttons">
+          <button class="menu__btn" data-filter=".all" type="button">Все</button>
+          <button class="menu__btn" data-filter=".soups" type="button">Супы</button>
+          <button class="menu__btn" data-filter=".cold" type="button">Холодные закуски</button>
+          <button class="menu__btn" data-filter=".salads" type="button">Салаты</button>
+          <button class="menu__btn" data-filter=".hot" type="button">Горячее</button>
+          <button class="menu__btn" data-filter=".bakery" type="button">Выпечка</button>
+          <button class="menu__btn" data-filter=".sauces" type="button">Соусы</button>
+          <button class="menu__btn" data-filter=".dessert" type="button">Десерты</button>
+          <button class="menu__btn" data-filter=".drinks" type="button">Напитки</button>
+        </div>
+        <div class="menu__inner">
+          <div class="menu__items mix all">
+            <div class="menu__item">
+              <img src="images/harcho.jpg" alt="СУП-ХАРЧО">
+              <h4 class="menu__item-title">СУП-ХАРЧО</h4>
+              <p class="menu__item-text">Традиционный грузинский суп (300 г)</p>
+              <p class="menu__item-price">350 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/borsch.jpg" alt="БОРЩ">
+              <h4 class="menu__item-title">БОРЩ</h4>
+              <p class="menu__item-text">Горячий традиционный борщ с говядиной (400 г)</p>
+              <p class="menu__item-price">275 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="КРЕМ-СУП">
+              <h4 class="menu__item-title">КРЕМ-СУП</h4>
+              <p class="menu__item-text">Картофельно-грибной крем-суп из шампиньонов (300 г)</p>
+              <p class="menu__item-price">250 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/tatariahni.jpg" alt="СУП-ТАТАРИАХНИ">
+              <h4 class="menu__item-title">СУП-ТАТАРИАХНИ</h4>
+              <p class="menu__item-text">Наваристый бульон из говядины с луком, чесноком и зеленью (300 г)</p>
+              <p class="menu__item-price">300 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/sacivi.jpg" alt="САЦИВИ">
+              <h4 class="menu__item-title">САЦИВИ</h4>
+              <p class="menu__item-text">Национальная грузинская закуска под ароматным соусом из молотого грецкого ореха (300 г)</p>
+              <p class="menu__item-price">350/550 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/ruletiki.jpg" alt="РУЛЕТИКИ ИЗ БАКЛАЖАНОВ">
+              <h4 class="menu__item-title">РУЛЕТИКИ ИЗ БАКЛАЖАНОВ</h4>
+              <p class="menu__item-text">Жареные баклажаны с начинкой из грецких орехов  (200 г)</p>
+              <p class="menu__item-price">360 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="АДЖАПСАНДАЛИ">
+              <h4 class="menu__item-title">АДЖАПСАНДАЛИ</h4>
+              <p class="menu__item-text">Свежие тушеные овощи, подается холодным (250 г)</p>
+              <p class="menu__item-price">300 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/salatNiako.jpg" alt="САЛАТ NIAKO">
+              <h4 class="menu__item-title">САЛАТ NIAKO</h4>
+              <p class="menu__item-text">Из хрустящих баклажанов, с творожным сыром и томатами (300 г)</p>
+              <p class="menu__item-price">370 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/salatGruzinskiy.jpg" alt="САЛАТ ПО-ГРУЗИНСКИ">
+              <h4 class="menu__item-title">САЛАТ ПО-ГРУЗИНСКИ</h4>
+              <p class="menu__item-text">С орехами (250 г)<br> Со сметаной (250 г)</p>
+              <p class="menu__item-price">350/300 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="ХАЧАПУРИ">
+              <h4 class="menu__item-title">ХАЧАПУРИ</h4>
+              <p class="menu__item-text">(200 г)</p>
+              <p class="menu__item-price">275 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/poMegrelski.jpg" alt="ХАЧАПУРИ ПО-МЕГРЕЛЬСКИ">
+              <h4 class="menu__item-title">ХАЧАПУРИ ПО-МЕГРЕЛЬСКИ</h4>
+              <p class="menu__item-text">(550 г)</p>
+              <p class="menu__item-price">550 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/hachapuriShpinat.jpg" alt="ХАЧАПУРИ ШПИНАТ И СЫР">
+              <h4 class="menu__item-title">ХАЧАПУРИ ШПИНАТ И СЫР</h4>
+              <p class="menu__item-text">(550 г)</p>
+              <p class="menu__item-price">450 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/adjarski.jpg" alt="ХАЧАПУРИ ПО-АДЖАРСКИ">
+              <h4 class="menu__item-title">ХАЧАПУРИ ПО-АДЖАРСКИ</h4>
+              <p class="menu__item-text">(400 г)</p>
+              <p class="menu__item-price">300 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/po-guriyski.jpg" alt="ХАЧАПУРИ ПО-ГУРИЙСКИ">
+              <h4 class="menu__item-title">ХАЧАПУРИ ПО-ГУРИЙСКИ</h4>
+              <p class="menu__item-text">(300 г)</p>
+              <p class="menu__item-price">280 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/achma.jpg" alt="АЧМА">
+              <h4 class="menu__item-title">АЧМА</h4>
+              <p class="menu__item-text">(250 г)</p>
+              <p class="menu__item-price">350 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/medovik.jpg" alt="МЕДОВИК">
+              <h4 class="menu__item-title">МЕДОВИК</h4>
+              <p class="menu__item-text">От Нанико (200 г)</p>
+              <p class="menu__item-price">300 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/napoleon.jpg" alt="НАПОЛЕОН">
+              <h4 class="menu__item-title">НАПОЛЕОН</h4>
+              <p class="menu__item-text">Домашний (200 г)</p>
+              <p class="menu__item-price">250 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="МОРОЖЕНОЕ">
+              <h4 class="menu__item-title">МОРОЖЕНОЕ</h4>
+              <p class="menu__item-text">Шоколадный пломбир (50 г)</p>
+              <p class="menu__item-price">100 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/odjahuri.jpg" alt="ОДЖАХУРИ">
+              <h4 class="menu__item-title">ОДЖАХУРИ</h4>
+              <p class="menu__item-text">Обжаренное мясо из свинины или баранины с картофелем, приправленное свежей зеленью и овощами (400 г)</p>
+              <p class="menu__item-price">350/450 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/tabaka.jpg" alt="ЦЫПЛЕНОК ТАБАКА">
+              <h4 class="menu__item-title">ЦЫПЛЕНОК ТАБАКА</h4>
+              <p class="menu__item-text">Блюдо с грузинскими корнями, с пикантный чесночно-островатый вкус и хрустящая поджаристая корочка (350 г)</p>
+              <p class="menu__item-price">600 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/chashushuli.jpg" alt="ЧАШУШУЛИ">
+              <h4 class="menu__item-title">ЧАШУШУЛИ</h4>
+              <p class="menu__item-text">Говядина, тушеная с луком, спелыми томатами, острым перцем и грузинскими приправами (300 г)</p>
+              <p class="menu__item-price">520 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/chahohbili.jpg" alt="ЧАХОХБИЛИ">
+              <h4 class="menu__item-title">ЧАХОХБИЛИ</h4>
+              <p class="menu__item-text">Тушеная курица со спелыми томатами, свежей зеленью и грузинскими специями (300 г)</p>
+              <p class="menu__item-price">420 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/shkmeruli.jpg" alt="ШКМЕРУЛИ">
+              <h4 class="menu__item-title">ШКМЕРУЛИ</h4>
+              <p class="menu__item-text">Жареный цыпленок в сливочно-чесночном соусе (550 г)</p>
+              <p class="menu__item-price">750 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/hinkali.jpg" alt="ХИНКАЛИ">
+              <h4 class="menu__item-title">ХИНКАЛИ</h4>
+              <p class="menu__item-text">свинина-говядина<br> баранина</p>
+              <p class="menu__item-price">80/90 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/kuchmachi.jpg" alt="КУЧМАЧИ КУРИНЫЕ">
+              <h4 class="menu__item-title">КУЧМАЧИ КУРИНЫЕ</h4>
+              <p class="menu__item-text">Печень и сердце с зеленью, луком и специями (200 г)</p>
+              <p class="menu__item-price">285 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/lobio.jpg" alt="ЛОБИО">
+              <h4 class="menu__item-title">ЛОБИО</h4>
+              <p class="menu__item-text">Красная, перетертая, отварная фасоль с кинзой и специями (300 г)</p>
+              <p class="menu__item-price">290 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/kupaty.jpg" alt="КУПАТЫ ПО-МЕГРЕЛЬСКИ">
+              <h4 class="menu__item-title">КУПАТЫ ПО-МЕГРЕЛЬСКИ</h4>
+              <p class="menu__item-text">Собственного производства (200 г)</p>
+              <p class="menu__item-price">580 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/shashlyk.jpg" alt="ШАШЛЫК В КЕЦАХ">
+              <h4 class="menu__item-title">ШАШЛЫК В КЕЦАХ</h4>
+              <p class="menu__item-text">из свинины (200 г) из баранины (200 г)</p>
+              <p class="menu__item-price">350/450 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/dolma.jpg" alt="ДОЛМА MIX">
+              <h4 class="menu__item-title">ДОЛМА MIX</h4>
+              <p class="menu__item-text">Мясной фарш в виноградных листьях со сметаной (200 г)</p>
+              <p class="menu__item-price">330 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="ГРУЗИНСКИЙ ЗАВАРНОЙ ЧАЙ">
+              <h4 class="menu__item-title">ГРУЗИНСКИЙ ЗАВАРНОЙ ЧАЙ</h4>
+              <p class="menu__item-text">Ламара (0,4 л)</p>
+              <p class="menu__item-price">150 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/limonad.jpg" alt="ГРУЗИНСКИЙ ЛИМОНАД">
+              <h4 class="menu__item-title">ГРУЗИНСКИЙ ЛИМОНАД</h4>
+              <p class="menu__item-text">(0,5 л)</p>
+              <p class="menu__item-price">130 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="МОРС">
+              <h4 class="menu__item-title">МОРС ЯГОДНЫЙ</h4>
+              <p class="menu__item-text">(0,2 л)</p>
+              <p class="menu__item-price">100 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="АМЕРИКАНО">
+              <h4 class="menu__item-title">АМЕРИКАНО</h4>
+              <p class="menu__item-text">(0,2 л)</p>
+              <p class="menu__item-price">100 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/nabeglavi.jpg" alt="НАБЕГЛАВИ">
+              <h4 class="menu__item-title">НАБЕГЛАВИ</h4>
+              <p class="menu__item-text">(0,5 л)</p>
+              <p class="menu__item-price">135 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="КАПУЧИНО">
+              <h4 class="menu__item-title">КАПУЧИНО</h4>
+              <p class="menu__item-text">(0,2 л)</p>
+              <p class="menu__item-price">150 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="СОУСЫ">
+              <h4 class="menu__item-title">СОУСЫ</h4>
+              <p class="menu__item-text">
+                Сацебели <span>70 руб</span><br>
+                Аджика <span>100 руб</span><br>
+                Сметана <span>50 руб</span><br>
+                Чесночный <span>80 руб</span>
+              </p>
+            </div>
+          </div>
+          <div class="menu__items mix soups">
+            <div class="menu__item">
+              <img src="images/harcho.jpg" alt="СУП-ХАРЧО">
+              <h4 class="menu__item-title">СУП-ХАРЧО</h4>
+              <p class="menu__item-text">Традиционный грузинский суп (300 г)</p>
+              <p class="menu__item-price">350 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/borsch.jpg" alt="БОРЩ">
+              <h4 class="menu__item-title">БОРЩ</h4>
+              <p class="menu__item-text">Горячий традиционный борщ с говядиной (400 г)</p>
+              <p class="menu__item-price">275 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="КРЕМ-СУП">
+              <h4 class="menu__item-title">КРЕМ-СУП</h4>
+              <p class="menu__item-text">Картофельно-грибной крем-суп из шампиньонов (300 г)</p>
+              <p class="menu__item-price">250 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/tatariahni.jpg" alt="СУП-ТАТАРИАХНИ">
+              <h4 class="menu__item-title">СУП-ТАТАРИАХНИ</h4>
+              <p class="menu__item-text">Наваристый бульон из говядины с луком, чесноком и зеленью (300 г)</p>
+              <p class="menu__item-price">300 руб</p>
+            </div>
+          </div>
+          <div class="menu__items mix cold">
+            <div class="menu__item">
+              <img src="images/sacivi.jpg" alt="САЦИВИ">
+              <h4 class="menu__item-title">САЦИВИ</h4>
+              <p class="menu__item-text">Национальная грузинская закуска под ароматным соусом из молотого грецкого ореха (300 г)</p>
+              <p class="menu__item-price">350/550 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/ruletiki.jpg" alt="РУЛЕТИКИ ИЗ БАКЛАЖАНОВ">
+              <h4 class="menu__item-title">РУЛЕТИКИ ИЗ БАКЛАЖАНОВ</h4>
+              <p class="menu__item-text">Жареные баклажаны с начинкой из грецких орехов  (200 г)</p>
+              <p class="menu__item-price">360 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="АДЖАПСАНДАЛИ">
+              <h4 class="menu__item-title">АДЖАПСАНДАЛИ</h4>
+              <p class="menu__item-text">Свежие тушеные овощи, подается холодным (250 г)</p>
+              <p class="menu__item-price">300 руб</p>
+            </div>
+          </div>
+          <div class="menu__items mix salads">
+            <div class="menu__item">
+              <img src="images/salatNiako.jpg" alt="САЛАТ NIAKO">
+              <h4 class="menu__item-title">САЛАТ NIAKO</h4>
+              <p class="menu__item-text">Из хрустящих баклажанов, с творожным сыром и томатами (300 г)</p>
+              <p class="menu__item-price">370 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/salatGruzinskiy.jpg" alt="САЛАТ ПО-ГРУЗИНСКИ">
+              <h4 class="menu__item-title">САЛАТ ПО-ГРУЗИНСКИ</h4>
+              <p class="menu__item-text">С орехами (250 г) Со сметаной (250 г)</p>
+              <p class="menu__item-price">350/300 руб</p>
+            </div>
+          </div>
+          <div class="menu__items mix hot">
+            <div class="menu__item">
+              <img src="images/odjahuri.jpg" alt="ОДЖАХУРИ">
+              <h4 class="menu__item-title">ОДЖАХУРИ</h4>
+              <p class="menu__item-text">из свинины из баранины Обжаренное до золотистой корочки мясо с картофелем, приправленное свежей зеленью и овощами (400 г)</p>
+              <p class="menu__item-price">350/450 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/tabaka.jpg" alt="ЦЫПЛЕНОК ТАБАКА">
+              <h4 class="menu__item-title">ЦЫПЛЕНОК ТАБАКА</h4>
+              <p class="menu__item-text">Блюдо с грузинскими корнями, которому присущ пикантный чесночно-островатый вкус и хрустящая поджаристая корочка (350 г)</p>
+              <p class="menu__item-price">600 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/chashushuli.jpg" alt="ЧАШУШУЛИ">
+              <h4 class="menu__item-title">ЧАШУШУЛИ</h4>
+              <p class="menu__item-text">Говядина, тушеная с луком, спелыми томатами, острым перцем и грузинскими приправами (300 г)</p>
+              <p class="menu__item-price">520 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/chahohbili.jpg" alt="ЧАХОХБИЛИ">
+              <h4 class="menu__item-title">ЧАХОХБИЛИ</h4>
+              <p class="menu__item-text">Тушеная курица со спелыми томатами, свежей зеленью и грузинскими специями (300 г)</p>
+              <p class="menu__item-price">420 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/shkmeruli.jpg" alt="ШКМЕРУЛИ">
+              <h4 class="menu__item-title">ШКМЕРУЛИ</h4>
+              <p class="menu__item-text">Жареный цыпленок в сливочно-чесночном соусе (550 г)</p>
+              <p class="menu__item-price">750 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/hinkali.jpg" alt="ХИНКАЛИ">
+              <h4 class="menu__item-title">ХИНКАЛИ</h4>
+              <p class="menu__item-text">свинина-говядина<br> баранина</p>
+              <p class="menu__item-price">80/90 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/kuchmachi.jpg" alt="КУЧМАЧИ КУРИНЫЕ">
+              <h4 class="menu__item-title">КУЧМАЧИ КУРИНЫЕ</h4>
+              <p class="menu__item-text">Печень и сердце с зеленью, луком и специями (200 г)</p>
+              <p class="menu__item-price">285 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/lobio.jpg" alt="ЛОБИО">
+              <h4 class="menu__item-title">ЛОБИО</h4>
+              <p class="menu__item-text">Красная, перетертая, отварная фасоль с кинзой и специями (300 г)</p>
+              <p class="menu__item-price">290 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/kupaty.jpg" alt="КУПАТЫ ПО-МЕГРЕЛЬСКИ">
+              <h4 class="menu__item-title">КУПАТЫ ПО-МЕГРЕЛЬСКИ</h4>
+              <p class="menu__item-text">Собственного производства (200 г)</p>
+              <p class="menu__item-price">580 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/shashlyk.jpg" alt="ШАШЛЫК В КЕЦАХ">
+              <h4 class="menu__item-title">ШАШЛЫК В КЕЦАХ</h4>
+              <p class="menu__item-text">из свинины (200 г) из баранины (200 г)</p>
+              <p class="menu__item-price">350/450 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/dolma.jpg" alt="ДОЛМА MIX">
+              <h4 class="menu__item-title">ДОЛМА MIX</h4>
+              <p class="menu__item-text">Мясной фарш в виноградных листьях со сметаной (200 г)</p>
+              <p class="menu__item-price">330 руб</p>
+            </div>
+          </div>
+          <div class="menu__items mix bakery">
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="ХАЧАПУРИ">
+              <h4 class="menu__item-title">ХАЧАПУРИ</h4>
+              <p class="menu__item-text">(200 г)</p>
+              <p class="menu__item-price">275 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/poMegrelski.jpg" alt="ХАЧАПУРИ ПО-МЕГРЕЛЬСКИ">
+              <h4 class="menu__item-title">ХАЧАПУРИ ПО-МЕГРЕЛЬСКИ</h4>
+              <p class="menu__item-text">(550 г)</p>
+              <p class="menu__item-price">550 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/hachapuriShpinat.jpg" alt="ХАЧАПУРИ ШПИНАТ И СЫР">
+              <h4 class="menu__item-title">ХАЧАПУРИ ШПИНАТ И СЫР</h4>
+              <p class="menu__item-text">(550 г)</p>
+              <p class="menu__item-price">450 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/adjarski.jpg" alt="ХАЧАПУРИ ПО-АДЖАРСКИ">
+              <h4 class="menu__item-title">ХАЧАПУРИ ПО-АДЖАРСКИ</h4>
+              <p class="menu__item-text">(400 г)</p>
+              <p class="menu__item-price">300 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/po-guriyski.jpg" alt="ХАЧАПУРИ ПО-ГУРИЙСКИ">
+              <h4 class="menu__item-title">ХАЧАПУРИ ПО-ГУРИЙСКИ</h4>
+              <p class="menu__item-text">(300 г)</p>
+              <p class="menu__item-price">280 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/achma.jpg" alt="АЧМА">
+              <h4 class="menu__item-title">АЧМА</h4>
+              <p class="menu__item-text">(250 г)</p>
+              <p class="menu__item-price">350 руб</p>
+            </div>
+          </div>
+          <div class="menu__items mix dessert">
+            <div class="menu__item">
+              <img src="images/medovik.jpg" alt="МЕДОВИК">
+              <h4 class="menu__item-title">МЕДОВИК</h4>
+              <p class="menu__item-text">От Нанико (200 г)</p>
+              <p class="menu__item-price">300 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/napoleon.jpg" alt="НАПОЛЕОН">
+              <h4 class="menu__item-title">НАПОЛЕОН</h4>
+              <p class="menu__item-text">Домашний (200 г)</p>
+              <p class="menu__item-price">250 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="МОРОЖЕНОЕ">
+              <h4 class="menu__item-title">МОРОЖЕНОЕ</h4>
+              <p class="menu__item-text">Шоколадный пломбир (50 г)</p>
+              <p class="menu__item-price">100 руб</p>
+            </div>
+          </div>
+          <div class="menu__items mix drinks">
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="ГРУЗИНСКИЙ ЗАВАРНОЙ ЧАЙ">
+              <h4 class="menu__item-title">ГРУЗИНСКИЙ ЗАВАРНОЙ ЧАЙ</h4>
+              <p class="menu__item-text">Ламара (0,4 л)</p>
+              <p class="menu__item-price">150 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/limonad.jpg" alt="ГРУЗИНСКИЙ ЛИМОНАД">
+              <h4 class="menu__item-title">ГРУЗИНСКИЙ ЛИМОНАД</h4>
+              <p class="menu__item-text">(0,5 л)</p>
+              <p class="menu__item-price">130 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="МОРС">
+              <h4 class="menu__item-title">МОРС ЯГОДНЫЙ</h4>
+              <p class="menu__item-text">(0,2 л)</p>
+              <p class="menu__item-price">100 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="АМЕРИКАНО">
+              <h4 class="menu__item-title">АМЕРИКАНО</h4>
+              <p class="menu__item-text">(0,2 л)</p>
+              <p class="menu__item-price">100 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/nabeglavi.jpg" alt="НАБЕГЛАВИ">
+              <h4 class="menu__item-title">НАБЕГЛАВИ</h4>
+              <p class="menu__item-text">(0,5 л)</p>
+              <p class="menu__item-price">135 руб</p>
+            </div>
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="КАПУЧИНО">
+              <h4 class="menu__item-title">КАПУЧИНО</h4>
+              <p class="menu__item-text">(0,2 л)</p>
+              <p class="menu__item-price">150 руб</p>
+            </div>
+          </div>
+          <div class="menu__items mix sauces">
+            <div class="menu__item">
+              <img src="images/image_error.jpg" alt="СОУСЫ">
+              <h4 class="menu__item-title">СОУСЫ</h4>
+              <p class="menu__item-text">
+                Сацебели <span>70 руб</span><br>
+                Аджика <span>100 руб</span><br>
+                Сметана <span>50 руб</span><br>
+                Чесночный <span>80 руб</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <h3 class="contacts__title">Контакты</h3>
+        <div class="contacts__inner">
+          <div class="contacts__info">
+            <div class="contacts__address">Адрес: 195112, г. Санкт-Петербург, Заневский проспект, д. 23</div>
+            <div class="contacts__phone">Телефон: <a class="contacts__phone-link" href="tel:+79046331134">+7 (904) 633 11 34</a>  <a class="contacts__phone-link" href="tel:+79531778870">+7 (953) 177 88 70</a></div>
+            <div class="contacts__social">
+              <a class="contacts__social-link" href="#"><img src="images/contacts-instagram-icon.svg" alt="Instagram"></a>
+              <a class="contacts__social-link" href="#"><img src="images/contacts-whatsapp-icon.svg" alt="WhatsApp"></a>
+            </div>
+          </div>
+          <div class="contacts__map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A35e4c2cee8992026fda0d67b5068b01d976a4a0eb8c468e258a12c68b1487093&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a class="footer__logo" href="#header">achma</a>
+          <a class="footer__phone-link" href="tel:+79046331134">+7 (904) 633 11 34</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
